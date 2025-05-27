@@ -6,54 +6,55 @@ const PreviewSection = () => {
       image: "https://www.shutterstock.com/image-photo/hvac-technician-performing-air-conditioner-600nw-2488702851.jpg",
       title: "AC Installation",
       description: "Expert installation for peak AC performance with a free consultation.",
-      price: "₹5,000 - ₹10,000",
+      price: "₹1,199+",
     },
     {
       image: "https://www.shutterstock.com/image-photo/repairman-fix-air-conditioning-systems-600nw-2463365013.jpg",
-      title: "AC Repair",
-      description: "Swift repairs to restore your AC’s cooling with guaranteed satisfaction.",
-      price: "₹2,000 - ₹6,000",
+      title: "AC Gas topup ",
+      description: "Swift gas filling to restore your AC’s cooling with guaranteed satisfaction.",
+      price: "₹1500+",
     },
     {
       image: "https://www.shutterstock.com/image-photo/experienced-hvac-technician-performing-maintenance-600nw-2485364943.jpg",
       title: "AC Maintenance",
       description: "Comprehensive maintenance to boost efficiency and extend AC lifespan.",
-      price: "₹1,500 - ₹4,000",
+      price: "₹399+",
     },
     {
       image: "https://content.jdmagicbox.com/comp/def_content/ac-repair-and-services-videocon/shutterstock-273874790-ac-repair-and-services-videocon-7-ne3ni.jpg",
       title: "Emergency Services",
       description: "24/7 urgent AC repair support for unexpected breakdowns.",
-      price: "₹3,000 - ₹8,000",
+      price: "₹500+",
     },
   ];
 
   const roServicesData = [
-    {
-      image: "https://www.kent.co.in/images/water-purifiers/uv/uv-water-purifiers-main-banner.png",
-      title: "RO Installation",
-      description: "Professional installation of RO water purifiers, ensuring clean and safe drinking water with expert setup.",
-      price: "₹3,000 - ₹7,000",
-    },
-    {
-      image: "https://www.scrapcareindia.com/ro/images/ro-installation2.webp",
-      title: "RO Repair",
-      description: "Quick and reliable repair services for all RO system issues, restoring pure water flow with guaranteed results.",
-      price: "₹1,000 - ₹4,000",
-    },
-    {
-      image: "https://img3.exportersindia.com/product_images/bc-full/2021/1/6673917/ro-maintenance-service-1611396089-5699907.jpeg",
-      title: "RO Maintenance",
-      description: "Thorough maintenance to keep your RO system running efficiently, ensuring long-term performance and water purity.",
-      price: "₹800 - ₹2,500",
-    },
-    {
-      image: "https://www.cdc.gov/drinking-water/media/images/2024/04/replacing-filter-GettyImages-1372970832-16x9-1.jpg?_=57707",
-      title: "Filter Replacement",
-      description: "Expert replacement of RO filters to maintain water quality and system efficiency, using high-quality components.",
-      price: "₹500 - ₹1,500",
-    },
-  ];
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136610539-3f3e73.jpeg",
+    title: "Water Purifier Check-up",
+    description: "Complete check-up to identify issues before repair.",
+    price: "₹299",
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136605585-3c4829.jpeg",
+    title: "Water Purifier Filter Check-up",
+    description: "Filters & RO membrane checked for performance.",
+    price: "₹299",
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136615222-84e50b.jpeg",
+    title: "Water Purifier Installation",
+    description: "Professional installation of water purifiers ensuring clean and safe drinking water.",
+    price: "₹399",
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136608298-9f1a6d.jpeg",
+    title: "Water Purifier Uninstallation",
+    description: "Hassle-free uninstallation service for water purifiers with care and safety.",
+    price: "₹300",
+  },
+];
+
 
   return (
     <div>

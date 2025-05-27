@@ -1,59 +1,59 @@
 import React from 'react';
-
+import Navbar from '../components/Navbar';
 const ROFilterServices = () => {
-  const servicesData = [
-    {
-      image: "https://www.kent.co.in/images/water-purifiers/uv/uv-water-purifiers-main-banner.png",
-      title: "RO Installation",
-      description: "Professional installation of RO water purifiers, ensuring clean and safe drinking water with expert setup.",
-      time: "2-4 hours",
-      price: "₹3,000 - ₹7,000",
-      features: ["Free water quality test", "1-year installation warranty", "Expert setup"],
-      rating: 4.8,
-      reviews: 142,
-    },
-    {
-      image: "https://www.scrapcareindia.com/ro/images/ro-installation2.webp",
-      title: "RO Repair",
-      description: "Quick and reliable repair services for all RO system issues, restoring pure water flow with guaranteed results.",
-      time: "1-2 hours",
-      price: "₹1,000 - ₹4,000",
-      features: ["Same-day repair", "Comprehensive diagnostics", "Genuine parts"],
-      rating: 4.6,
-      reviews: 95,
-    },
-    {
-      image: "https://img3.exportersindia.com/product_images/bc-full/2021/1/6673917/ro-maintenance-service-1611396089-5699907.jpeg",
-      title: "RO Maintenance",
-      description: "Thorough maintenance to keep your RO system running efficiently, ensuring long-term performance and water purity.",
-      time: "1-3 hours",
-      price: "₹800 - ₹2,500",
-      features: ["Filter replacement", "System cleaning", "Performance check"],
-      rating: 4.9,
-      reviews: 178,
-    },
+const servicesData = [
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136610539-3f3e73.jpeg",
+    title: "Water Purifier Check-up",
+    description: "Complete check-up to identify issues before repair.",
+    time: "60 mins",
+    price: "₹299",
+    features: ["Filters & RO membrane checked for performance", "Filter replacement, if needed", "Quick assessment"],
+    rating: 4.80,
+    reviews: 143000,
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136605585-3c4829.jpeg",
+    title: "Water Purifier Filter Check-up",
+    description: "Filters & RO membrane checked for performance.",
+    time: "60 mins",
+    price: "₹299",
+    features: ["Performance check", "Filter replacement, if needed", "Quick diagnosis"],
+    rating: 4.82,
+    reviews: 145000,
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136615222-84e50b.jpeg",
+    title: "Water Purifier Installation",
+    description: "Professional installation of water purifiers ensuring clean and safe drinking water.",
+    time: "60 mins",
+    price: "₹399",
+    features: ["Expert setup", "Water quality test", "Installation warranty"],
+    rating: 4.83,
+    reviews: 67000,
+  },
+  {
+    image: "https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template,q_auto:low,f_auto/w_128,dpr_2,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/home-screen/1733136608298-9f1a6d.jpeg",
+    title: "Water Purifier Uninstallation",
+    description: "Hassle-free uninstallation service for water purifiers with care and safety.",
+    time: "60 mins",
+    price: "₹300",
+    features: ["Safe removal", "Expert handling", "No extra charges"],
+    rating: 4.88,
+    reviews: 11000,
+  },
+];
 
-    {
-      image: "https://www.cdc.gov/drinking-water/media/images/2024/04/replacing-filter-GettyImages-1372970832-16x9-1.jpg?_=57707",
-      title: "Filter Replacement",
-      description: "Expert replacement of RO filters to maintain water quality and system efficiency, using high-quality components.",
-      time: "1-2 hours",
-      price: "₹500 - ₹1,500",
-      features: ["Genuine filter replacement", "Water quality check", "Quick service"],
-      rating: 4.7,
-      reviews: 82,
-    },
-
-  ];
 
   return (
     <section className="py-16 bg-gradient-to-b from-blue-50 to-gray-100 h-100vh">
-      <div className="container mx-auto px-4 max-w-5xl">
+      <Navbar/>
+      <div className="container mx-auto px-4 max-w-5xl mt-4">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center bg-gradient-to-r from-blue-900 to-blue-700 bg-clip-text text-transparent mb-8">
           Our Exceptional RO Filter Services
         </h2>
         <p className="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">
-          Experience top-tier RO water purifier solutions for clean, safe drinking water in Pune, Delhi, and Mumbai. Trust us for unmatched quality and service.
+          Experience top-tier RO water purifier solutions for clean, safe drinking water in Delhi. Trust us for unmatched quality and service.
         </p>
 
         <div className="h-screen overflow-hidden">

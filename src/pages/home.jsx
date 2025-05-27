@@ -295,7 +295,7 @@ const Home = () => {
           <p className="text-lg md:text-2xl mb-8 hero-text text-gray-200 max-w-3xl mx-auto">
             Experience unmatched cooling comfort with our expert AC fitting, maintenance, and repair services. Stay cool, all year round, with ZubairAircon – your trusted partner in air conditioning excellence.
           </p>
-          <a href="#contact" className="hero-button bg-blue-600 text-white font-semibold py-4 px-10 rounded-lg shadow-lg hero-text">
+          <a href="/services" className="hero-button bg-blue-600 text-white font-semibold py-4 px-10 rounded-lg shadow-lg hero-text">
             Get Started Today!
           </a>
         </div>
@@ -403,10 +403,10 @@ const Home = () => {
             Expert AC fitting, maintenance, and repair services in Pune, Delhi, and Mumbai. ZubairAircon delivers cool comfort solutions, all year round.
           </p>
           <div className="flex justify-center gap-4">
-            <a href="#contact" className="hero-button bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hero-text">
+            <a href="/services" className="hero-button bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hero-text">
               Book a Service Now
             </a>
-            <a href="#services" className="hero-button bg-transparent border border-white text-white font-semibold py-3 px-8 rounded-lg shadow-lg hero-text hover:bg-blue-600 hover:border-transparent">
+            <a href="/services" className="hero-button bg-transparent border border-white text-white font-semibold py-3 px-8 rounded-lg shadow-lg hero-text hover:bg-blue-600 hover:border-transparent">
               Discover Our Services
             </a>
           </div>
@@ -505,7 +505,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://i.ibb.co/Z1hqSZ6c/Screenshot-2025-05-26-222042.png"
                 alt="ZubairAircon technician working on AC unit"
                 className="w-full h-96 object-cover rounded-lg shadow-lg about-image"
               />
@@ -553,7 +553,7 @@ const Home = () => {
                 ZubairAircon is your trusted partner for AC fitting, maintenance, and repair services. We provide top-notch solutions to keep your home or office cool and comfortable year-round.
               </p>
               <p className="text-gray-400">
-                Serving Pune, Delhi, and Mumbai with excellence since 2015.
+                Serving Delhi with excellence since 2015.
               </p>
             </div>
             <div>
@@ -583,20 +583,20 @@ const Home = () => {
                   <svg className="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                   </svg>
-                  <span>support@zubairaircon.com</span>
+                  <span>zubairaircon600@gmail.com</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                   </svg>
-                  <span>+91 987-654-3210</span>
+                  <span>+91 817 898 4969</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   </svg>
-                  <span>Pune, Delhi, Mumbai</span>
+                  <span>Delhi </span>
                 </li>
               </ul>
               <div className="mt-6">
