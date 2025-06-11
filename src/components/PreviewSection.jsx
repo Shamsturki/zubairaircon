@@ -144,7 +144,7 @@ const PreviewSection = () => {
                 <p className="text-sm text-gray-600 mb-3 line-clamp-2">{service.description}</p>
                 <p className="text-base font-semibold text-blue-600 mb-4">{service.price}</p>
                 <a
-                  href={`https://wa.me/917900225025?text=Hello,%20I’d%20like%20to%20book%20an%20RO%20${service.title}%20service`}
+                  href={`https://wa.me/919756620360?text=Hello,%20I’d%20like%20to%20book%20an%20RO%20${service.title}%20service`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors"
