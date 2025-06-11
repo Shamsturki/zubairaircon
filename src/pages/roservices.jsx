@@ -118,7 +118,7 @@ const servicesData = [
                     {/* Button positioned bottom right */}
                     <div className="mt-auto self-end">
                       <a
-                        href={`https://wa.me/917900225025?text=Hello,%20I’d%20like%20to%20book%20an%20RO%20${service.title}%20service`}
+                        href={`https://wa.me/919756620360?text=Hello,%20I’d%20like%20to%20book%20an%20RO%20${service.title}%20service`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-600 to-blue-800 text-white font-semibold py-3 px-8 rounded-lg transition-transform duration-300 hover:scale-110 hover:shadow-lg hover:animate-pulse"
