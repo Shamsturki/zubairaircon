@@ -34,7 +34,9 @@ const Location = () => {
 
               {/* Address Details */}
               <div className="md:w-1/3 w-full text-center md:text-left">
-                <h3 className="text-2xl font-semibold mb-4 text-white">Our Delhi Office</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-white">
+                  Our Delhi Office
+                </h3>
                 <p className="text-gray-200 mb-4">
                   F2, Sangam Vihar, Ratiya Marg,
                   <br />
@@ -46,18 +48,22 @@ const Location = () => {
                   <strong>Email:</strong> zubairaircon600@gmail.com
                 </p>
                 <a
-                  href="#contact"
+                  href={`https://wa.me/918178984969?text=Hello%2C%20I'd%20like%20to%20contact%20zubairaircon`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block bg-white text-blue-600 font-extrabold py-3 px-10 rounded-lg shadow-lg border-2 border-blue-600 hover:bg-blue-100 transition"
                   style={{
                     transition: "all 0.3s ease",
                     background: "linear-gradient(145deg, #ffffff, #f0f0f0)",
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "linear-gradient(145deg, #e6f0ff, #d4e4ff)";
+                    e.currentTarget.style.background =
+                      "linear-gradient(145deg, #e6f0ff, #d4e4ff)";
                     e.currentTarget.style.transform = "scale(1.05)";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "linear-gradient(145deg, #ffffff, #f0f0f0)";
+                    e.currentTarget.style.background =
+                      "linear-gradient(145deg, #ffffff, #f0f0f0)";
                     e.currentTarget.style.transform = "scale(1)";
                   }}
                 >
